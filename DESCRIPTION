@@ -1,0 +1,7 @@
+Package: dataOPS
+Type: Package
+Title: Common Operations for Military Data
+Version: 0.1.0
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
