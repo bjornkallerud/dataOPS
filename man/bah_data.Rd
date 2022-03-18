@@ -10,8 +10,8 @@ A data frame with 5 variables:
   \item{MHA}{MHA code, ie "AK400"}
   \item{pg}{paygrade, ie "E01"}
   \item{dep}{dependency status, ie "With Dependents"}
-  \item{year}
-  \item{bah_rate}
+  \item{year}{year, numeric}
+  \item{bah_rate}{bah rate, numeric}
 }
 }
 \usage{
