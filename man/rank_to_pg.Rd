@@ -12,7 +12,7 @@ rank_to_pg(df, service)
 \item{service}{either "Multi", in which case columns "service" and "rank" must be present in df, or one of "Army", "Air Force", "Navy", "Coast Guard", in which case column rank must be present in df}
 }
 \value{
-This function returns a vector of correctly formatted meter sizes
+This function returns a dataframe with an additional column for paygrade
 }
 \description{
 Rank to Paygrades
