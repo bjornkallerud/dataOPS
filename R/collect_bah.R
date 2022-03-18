@@ -20,7 +20,7 @@ collect_bah <- function(mha, years = 2015:2022, dependency = "With Dependents", 
     filter(MHA == mha & dep == dependency & year %in% years) %>% 
     select(-c(MHA, dep)) %>% 
     {if (paygrades == "Limited") filter(., ! pg %in% c(paste0("O0", 1:3, "E"), paste0("W0", 1:5))) else if (paygrades == "All") .} %>% 
-    spread(year, value)
+    spread(year, bah_rate)
   
   return(df_out)
 
