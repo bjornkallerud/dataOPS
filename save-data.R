@@ -7,4 +7,4 @@ usethis::use_data(df_rank_pg, overwrite = T, internal = T)
 # bah data
 bah_data <- read.csv("bah-data/bah.csv") %>% 
   select(MHA, pg, dep, year, bah_rate = value)
-usethis::use_data(bah_data, overwrite = T, internal = F)
+usethis::use_data(bah_data, overwrite = T, internal = T)
