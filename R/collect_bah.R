@@ -1,10 +1,10 @@
 ###########################################################################################################################################################
 #' Gather BAH data
 #'
-#' @param mha string of MHA code, ie AK400
+#' @param mha string of MHA code, ie "AK400"
 #' @param years numeric series of years, default is 2015:2022
 #' @param dependency dependency status, either "With Dependents" or "Without Dependents", default is "With Dependents"
-#' @param paygrades either "Limited", which exludes enlisted and warrant officer or "All", default is "Limited"
+#' @param paygrades either "Limited", which exludes enlisted and warrant officers or "All", default is "Limited"
 #' 
 #' @return This function returns a dataframe of BAH rates
 #'

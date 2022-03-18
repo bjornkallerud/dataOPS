@@ -12,13 +12,13 @@ collect_bah(
 )
 }
 \arguments{
-\item{mha}{string of MHA code, ie AK400}
+\item{mha}{string of MHA code, ie "AK400"}
 
 \item{years}{numeric series of years, default is 2015:2022}
 
 \item{dependency}{dependency status, either "With Dependents" or "Without Dependents", default is "With Dependents"}
 
-\item{paygrades}{either "Limited", which exludes enlisted and warrant officer or "All", default is "Limited"}
+\item{paygrades}{either "Limited", which exludes enlisted and warrant officers or "All", default is "Limited"}
 }
 \value{
 This function returns a dataframe of BAH rates
