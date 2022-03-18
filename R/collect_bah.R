@@ -10,7 +10,7 @@
 #'
 #' @author Bjorn Kallerud
 #'
-#' @import dplyr
+#' @import tidyverse
 #'
 #' @export
 
