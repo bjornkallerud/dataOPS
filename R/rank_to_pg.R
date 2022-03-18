@@ -4,7 +4,7 @@
 #' @param df a dataframe of ranks and possibly services
 #' @param service either "Multi", in which case columns "service" and "rank" must be present in df, or one of "Army", "Air Force", "Navy", "Coast Guard", in which case column rank must be present in df 
 #'
-#' @return This function returns a vector of correctly formatted meter sizes
+#' @return This function returns a dataframe with an additional column for paygrade
 #'
 #' @author Bjorn Kallerud
 #'
